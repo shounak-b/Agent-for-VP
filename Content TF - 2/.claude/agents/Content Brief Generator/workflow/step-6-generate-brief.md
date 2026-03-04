@@ -1,4 +1,4 @@
-# Step 6: Generate Landing Page Content Brief
+# Step 6: Generate Content Brief
 
 **Goal:** Synthesize all collected research and insights into a comprehensive, actionable content brief that includes strategically structured headlines, internal linking opportunities, target word count, content goal, and meta description.
 
@@ -70,25 +70,26 @@ Under H2: Key Features and Capabilities
 
 ### C. Apply Brand Guidelines
 
-**CRITICAL:** All headlines MUST comply with the client's brand guidelines.
+**CRITICAL:** All headlines MUST comply with Visual Planning's brand guidelines.
 
 Reference: [../brand-guidelines.md](../brand-guidelines.md)
 
 **Scan all headlines for prohibited terminology:**
-- **Absolutes/Guarantees**: Avoid "ensure", "guarantee", "always", "all", "any", "100%", "effortless", "seamless"
-- **Superlatives**: Avoid "best", "best-in-class", "breakthrough", "revolutionary", "cutting edge", "state-of-the-art", "unique", "unmatched", "perfect"
-- **Antitrust terms**: Avoid "dominate", "eliminate competition", "market leader", "market share"
-- **Regulatory terms**: Use "FDA Approved" vs "FDA Cleared" precisely; avoid "safe"
-- **Vague terms**: Avoid "expertise", "only", "partner"
+- **Absolutes/Guarantees**: Avoid "ensure", "guarantee", "always", "all", "any", "100%", "effortless", "seamless", "eliminates"
+- **Superlatives**: Avoid "best", "best-in-class", "most powerful", "revolutionary", "game-changing", "cutting edge", "unique", "unmatched", "perfect"
+- **Competitive overstatements**: Avoid "kills spreadsheets", "destroys the competition", "replaces all other tools"
+- **Vague terms**: Avoid "powerful", "smart", "robust", "expertise", "solution" (without specifics)
 
 **Check all tense variations**: Present, past, future, plural forms (e.g., "ensures", "ensured", "ensuring")
 
 **Replace with compliant alternatives:**
-- "Ensure" → "Helps ensure", "Designed to"
-- "Best" → "Among the best", "Outstanding"
-- "Perfect" → "Well-suited for", "Optimized"
+- "Ensure" → "Helps ensure", "Designed to support", "Supports"
+- "Best" → "Among the leading options", "A strong choice for"
+- "Perfect" → "Well-suited for", "Designed for"
+- "Eliminate" → "Reduce", "Minimize", "Help prevent"
+- "Seamless" → "Streamlined", "Well-integrated"
 
-**Apply tone of voice:** Confident, capable, straightforward, outcome-driven, performance over polish
+**Apply tone of voice:** Clear, practical, empathetic, outcome-focused, down-to-earth — never boastful or vague
 
 ---
 
@@ -117,7 +118,7 @@ Frame from user's perspective: what will they learn, achieve, or understand?
 
 **Example:**
 ```
-This page will help team leads and project managers understand how [Client Name]'s project management software supports planning, collaboration, and on-time delivery. It will highlight core capabilities such as task tracking, team dashboards, and reporting tools that help teams meet deadlines. Visitors will leave with a clear understanding of available plans and how to get started with a free trial.
+This page will help operations managers and project managers understand how Visual Planning's resource scheduling software helps teams replace spreadsheets and manual planning with a visual, configurable platform. It will highlight key capabilities such as drag-and-drop scheduling, smart resource assignment, and real-time collaboration tools. Visitors will leave with a clear understanding of how Visual Planning fits their workflow and how to get started with a free trial or demo.
 ```
 
 ---
@@ -129,7 +130,7 @@ Write a page title for the `<title>` tag:
 - **Length:** 50–60 characters
 - **Review top-ranking SERP title tags** for the Primary Keyword to identify modifiers worth incorporating (e.g., year, "Free Trial", product qualifiers)
 
-**Example:** `Project Management Software | [Client Name]`
+**Example:** `Resource Scheduling Software | Visual Planning`
 
 ---
 
@@ -145,7 +146,7 @@ Write a compelling meta description:
 
 **Example:**
 ```
-Discover project management software designed to help teams plan, track, and deliver work on time. Flexible plans available for teams of any size.
+Discover resource scheduling software designed to help teams replace spreadsheets with a visual, configurable planning platform. Free trial available for teams of any size.
 ```
 
 ---
@@ -275,14 +276,14 @@ See [common-patterns.md](common-patterns.md) for quality check templates.
 ## Example Output
 
 ```
-=== LANDING PAGE CONTENT BRIEF ===
+=== CONTENT BRIEF ===
 
-Page Name: Project Management Software
-Client: [Client Name]
-Primary Keyword: project management software
-Secondary Keywords: task management tools, team collaboration software, project tracking
-Page Level: L3
-Page Title: Project Management Software | [Client Name]
+Page Name: Resource Scheduling Software
+Client: Visual Planning
+Primary Keyword: resource scheduling software
+Secondary Keywords: staff scheduling software, resource planning tool, team scheduling
+Page Level: L2
+Page Title: Resource Scheduling Software | Visual Planning
 
 ---
 
@@ -291,49 +292,50 @@ TARGET WORD COUNT: 800-1100 words
 ---
 
 CONTENT GOAL:
-This page will help team leads and project managers understand how [Client Name]'s project management software supports planning, collaboration, and on-time delivery. It will highlight core capabilities such as task tracking, team dashboards, and reporting tools that help teams meet deadlines. Visitors will leave with a clear understanding of available plans and how to get started with a free trial.
+This page will help operations managers and project managers understand how Visual Planning's resource scheduling software helps teams move beyond spreadsheets and manual planning with a visual, configurable platform. It will highlight key capabilities including drag-and-drop scheduling, smart resource assignment, and real-time collaboration. Visitors will leave with a clear understanding of how Visual Planning fits their workflow and how to request a free trial or demo.
 
 ---
 
 META DESCRIPTION:
-Discover project management software designed to help teams plan, track, and deliver work on time. Flexible plans available for teams of any size.
+Discover resource scheduling software that helps teams plan, assign, and track resources visually. Configurable for any industry — try Visual Planning free.
 
 ---
 
 HEADLINE STRUCTURE:
 
-H1: Project Management Software for High-Performing Teams
+H1: Resource Scheduling Software for Operations Teams
 
-H2: Core Features Built for Team Collaboration
-H3: Task and Milestone Tracking
-H3: Shared Dashboards and Workspaces
-H3: Real-Time Progress Updates
+H2: Why spreadsheets fail for resource scheduling
+H3: Too much data, not enough visibility
+H3: Errors from disconnected information
+H3: Time lost on manual updates
 
-H2: Plan and Prioritize with Confidence
-H3: Drag-and-Drop Project Planning
-H3: Deadline and Dependency Management
+H2: Visual scheduling built around your workflow
+H3: Drag-and-drop resource assignment
+H3: Smart assignment based on your rules
+H3: Custom views for every role
 
-H2: Reporting and Performance Insights
+H2: Real-time collaboration for office and field teams
 
-H2: Pricing and Plan Options
-H3: Team Plans
-H3: Enterprise Solutions
+H2: Pricing and plan options
+H3: SaaS (cloud) subscriptions
+H3: On-premise licenses
 
-H2: Getting Started
+H2: Try Visual Planning free for 30 days
 
 ---
 
 INTERNAL LINKING OPPORTUNITIES:
 
-1. Under H2: Core Features Built for Team Collaboration
-   - Anchor text: "team collaboration tools"
+1. Under H2: Visual scheduling built around your workflow
+   - Anchor text: "resource planning tool"
    - URL: [URL from Step 3]
 
-2. Under H2: Reporting and Performance Insights
-   - Anchor text: "project reporting software"
+2. Under H2: Real-time collaboration for office and field teams
+   - Anchor text: "team scheduling software"
    - URL: [URL from Step 3]
 
-3. Under H2: Getting Started
+3. Under H2: Try Visual Planning free for 30 days
    - Anchor text: "free trial"
    - URL: [URL from Step 3]
 
@@ -342,10 +344,10 @@ INTERNAL LINKING OPPORTUNITIES:
 NOTES:
 - All headlines follow SEO hierarchy (H1 → H2 → H3)
 - All headlines are ≤60 characters
-- Prohibited terminology replaced per brand guidelines
-- Content structure addresses target audience's core pain points around planning and delivery
+- Prohibited terminology replaced per Visual Planning brand guidelines
+- Content structure addresses target audience's core pain points around scheduling complexity, errors, and collaboration
 - Internal links distributed across sections for balanced link equity
-- Competitor analysis informed structure around features, pricing, and onboarding
+- Competitor analysis informed structure around pain points, features, pricing, and trial CTA
 ```
 
 ---

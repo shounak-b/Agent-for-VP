@@ -1,6 +1,6 @@
 # Headline Strategy Guide
 
-Detailed guidance for creating effective, SEO-optimized headlines for Thermo Fisher landing pages.
+Detailed guidance for creating effective, SEO-optimized headlines for Visual Planning landing pages and content.
 
 ---
 
@@ -20,14 +20,15 @@ Detailed guidance for creating effective, SEO-optimized headlines for Thermo Fis
 
 **Formula:**
 ```
-[Primary Keyword] for [Application/Use Case]
+[Primary Keyword] for [Application/Use Case or Team Type]
 ```
 
 **Examples:**
-- ✓ Good: "CHO Cell Culture Media for Biopharmaceutical Production"
-- ✓ Good: "Single-Use Bioreactors for Cell Therapy Manufacturing"
-- ✗ Avoid: "Advanced Solutions for Your Bioprocessing Needs" (no keyword)
-- ✗ Avoid: "CHO Media" (too short, lacks context)
+- ✓ Good: "Resource Scheduling Software for Operations Teams"
+- ✓ Good: "Project Scheduling Tools for Field Service Teams"
+- ✓ Good: "Workforce Planning Software for Manufacturing"
+- ✗ Avoid: "Advanced Solutions for All Your Scheduling Needs" (no keyword, too vague)
+- ✗ Avoid: "Visual Planning" (too short, lacks context)
 
 ---
 
@@ -43,35 +44,39 @@ Detailed guidance for creating effective, SEO-optimized headlines for Thermo Fis
 - Should flow in logical order
 - Use sentence case
 
-**Common H2 Patterns for Bioprocessing Pages:**
+**Common H2 Patterns for Visual Planning Pages:**
 
-1. **Product/Portfolio Overview**
-   - "[Product Category] for [Application]"
-   - "Formulations to [Outcome]"
-   - "Benefits of [Product]"
+1. **Problem/Pain Point Section**
+   - "Why [tool type] falls short for [team/industry]"
+   - "Common challenges with [current approach]"
+   - "When spreadsheets stop working for scheduling"
 
-2. **Application-Specific Sections**
-   - "Solutions for [Specific Use Case]"
-   - "Applications for [Product]"
-   - "Performance across [Application]"
+2. **Feature/Capability Overview**
+   - "[Feature] for [use case]"
+   - "How [feature] works in Visual Planning"
+   - "Visual scheduling built for [industry]"
 
-3. **Technical/Support Sections**
-   - "Technical support and documentation"
-   - "Scalable global manufacturing capabilities"
-   - "Quality and regulatory documentation"
+3. **Benefits/Outcomes Sections**
+   - "Reduce [specific pain] with [feature]"
+   - "Give your team real-time visibility"
+   - "Schedule and assign resources in minutes"
 
-4. **Workflow/Process Sections**
-   - "Optimize [Process Stage]"
-   - "Workflow integration"
-   - "Process development support"
+4. **Use Case / Industry Sections**
+   - "Scheduling for [specific industry]"
+   - "How [industry] teams use Visual Planning"
+   - "Built for [role] in [context]"
+
+5. **Getting Started / CTA Sections**
+   - "Try Visual Planning free for 30 days"
+   - "Get started with a live demo"
+   - "See how it works for your team"
 
 **Examples:**
-- ✓ Good: "Optimize CHO workflows with cell culture media"
-- ✓ Good: "Solutions to enhance cell culture performance"
-- ✓ Good: "Application for CHO media"
-- ✓ Good: "Scalable global manufacturing capabilities"
-- ✗ Avoid: "Why Choose Us" (self-promotional)
-- ✗ Avoid: "The Best Media on the Market" (superlative, prohibited)
+- ✓ Good: "Replace spreadsheets with visual scheduling"
+- ✓ Good: "Smart resource assignment based on your rules"
+- ✓ Good: "Real-time collaboration for distributed teams"
+- ✗ Avoid: "Why Choose Us" (self-promotional, no keyword value)
+- ✗ Avoid: "The Best Scheduling Tool on the Market" (superlative, prohibited)
 
 ---
 
@@ -82,7 +87,7 @@ Detailed guidance for creating effective, SEO-optimized headlines for Thermo Fis
 **Requirements:**
 - Only appear **under H2 sections** (never standalone)
 - Represent subtopics of the parent H2
-- Typically 2, 3, 4, or 6 H3s per H2 (if used)
+- Typically 2, 3, or 4 H3s per H2 (if used)
 - Maximum **60 characters each**
 - More specific than H2
 - Use sentence case
@@ -90,10 +95,10 @@ Detailed guidance for creating effective, SEO-optimized headlines for Thermo Fis
 **When to Use H3s:**
 
 Use H3s when an H2 section covers multiple distinct items:
-- Product variants (Serum-Free, Chemically Defined, Classical)
-- Application types (mAb Production, Protein Expression, Biosimilars)
-- Process stages (Upstream, Downstream, Formulation)
-- Service types (Custom Development, Tech Support, Training)
+- Feature types (Gantt view, Kanban view, Calendar view)
+- Industry applications (manufacturing, field service, IT)
+- User roles (project manager, operations manager, team lead)
+- Use cases (shift scheduling, project planning, resource allocation)
 
 **Don't use H3s when:**
 - Content under H2 is cohesive and doesn't need subdivision
@@ -102,83 +107,87 @@ Use H3s when an H2 section covers multiple distinct items:
 **Examples:**
 
 ```
-H2: Solutions for CHO Workflows
-H3: Serum-free CHO media
-H3: Chemically defined CHO Mmdia
-H3: Classical CHO media formulations
+H2: Scheduling views built for any workflow
+H3: Gantt chart for project timelines
+H3: Calendar view for shift scheduling
+H3: Kanban for task-based workflows
 ```
 
 ```
-H2: CHO media for various applications
-H3: Monoclonal antibody production
-H3: Recombinant protein expression
-H3: Biosimilar development
+H2: Who uses Visual Planning
+H3: Operations and production teams
+H3: Field service and utilities
+H3: IT and consulting firms
 ```
 
 ---
 
 ## Headline Flow Patterns
 
-### Pattern 1: Portfolio Structure
+### Pattern 1: Problem → Solution Structure
 
-Use when showcasing product/service range:
-
-```
-H1: CHO Media
-
-H2: [Product] solutions for [Workflow]
-H3: [Product Variant 1]
-H3: [Product Variant 2]
-H3: [Product Variant 3]
-
-H2: [Product] for [Application]
-H3: [Application 1]
-H3: [Application 2]
-
-H2: Scalable global manufacturing capabilities
-
-H2: Technical support and documentation
-```
-
----
-
-### Pattern 2: Application-First Structure
-
-Use when targeting specific use cases:
+Use when page needs to address a pain point and present Visual Planning as the answer:
 
 ```
-H1: [Solution Type] for [Specific Application]
+H1: Resource Scheduling Software for Operations Teams
 
-H2: Enhance [Application] Workflow with [Product/Service]
+H2: Why spreadsheets fail for resource scheduling
+H3: Too much data, not enough visibility
+H3: Errors from disconnected information
+H3: Time lost on manual updates
 
-H2: [Product/Service Category] for [Application]
-H3: [Specific Product/Service 1]
-H3: [Specific Product/Service 2]
+H2: Visual scheduling that fits your workflow
+H3: Drag-and-drop resource assignment
+H3: Rules-based scheduling and alerts
+H3: Custom views for every role
 
-H2: Optimize [Process] with [Product/Service]
+H2: Real-time collaboration for your whole team
 
-H2: Quality and regulatory support
+H2: Try Visual Planning free for 30 days
 ```
 
 ---
 
-### Pattern 3: Solution-Based Structure
+### Pattern 2: Feature/Capability Structure
 
-Use when emphasizing integrated solutions:
+Use when showcasing a specific feature set or product capability:
 
 ```
-H1: [Solution Name] for [Outcome/Benefit]
+H1: Project Scheduling Software for Teams
 
-H2: Solution Components
-H3: [Component 1]
-H3: [Component 2]
-H3: [Component 3]
+H2: Schedule and assign resources visually
 
-H2: Integrate with [Application] [Workflows]
+H2: Key features built for project planning
+H3: Drag-and-drop task scheduling
+H3: Smart resource assignment rules
+H3: Mobile access for offsite teams
 
-H2: Enable scalable manufacturing quickly
+H2: Integrate with your existing tools
 
-H2: Collaborate with technical specialists
+H2: Pricing and plans
+H3: Cloud (SaaS) subscriptions
+H3: On-premise licenses
+```
+
+---
+
+### Pattern 3: Industry/Use Case Structure
+
+Use when targeting a specific industry or audience segment:
+
+```
+H1: Workforce Scheduling Software for Manufacturing
+
+H2: Scheduling challenges in manufacturing
+H3: Coordinating production lines and shifts
+H3: Managing machine and workforce availability
+
+H2: How Visual Planning supports manufacturing teams
+H3: Production scheduling boards
+H3: Shift and absence management
+H3: Work order generation
+
+H2: See how manufacturing teams get started
 ```
 
 ---
@@ -191,61 +200,62 @@ H2: Collaborate with technical specialists
 - Never force keywords unnaturally
 
 **Example:**
-- Primary Keyword: "CHO cell culture media"
-- Secondary Keywords: "CHO media formulations", "serum-free CHO media", "CHO bioprocessing"
+- Primary Keyword: "resource scheduling software"
+- Secondary Keywords: "resource planning tool", "staff scheduling software", "team scheduling"
 
 **Integration:**
 ```
-H1: CHO Cell Culture Media for Biopharmaceutical Production
+H1: Resource Scheduling Software for Operations Teams
 
-H2: CHO Media Formulations for Different Applications  ← Secondary keyword
-H3: Serum-Free CHO Media  ← Secondary keyword
-H3: Chemically Defined Formulations
+H2: A resource planning tool built around your rules  ← Secondary keyword
+H3: Staff scheduling software for shift-based teams  ← Secondary keyword
+H3: Equipment and asset scheduling
 
-H2: CHO Bioprocessing Workflow Optimization  ← Secondary keyword
+H2: Team scheduling made visual and collaborative  ← Secondary keyword
 ```
 
 ---
 
 ## Content Gaps and Opportunities
 
-When analyzing competitor headlines (Step 6), look for:
+When analyzing competitor headlines (Step 5), look for:
 
-1. **Missing Topics:** What do competitors cover that you don't?
-2. **Better Structure:** Can you organize similar content more logically?
+1. **Missing Topics:** What do competitors cover that isn't addressed?
+2. **Better Structure:** Can similar content be organized more logically?
 3. **Keyword Opportunities:** Are competitors missing obvious keywords?
 4. **Depth Differences:** Do competitors go deeper or stay high-level?
-5. **Unique Angles:** What can you offer that competitors don't?
+5. **Unique Angles:** What can Visual Planning offer that competitors don't? (e.g., no-programming configurability, all-in-one licensing, smart assignment rules)
 
 ---
 
 ## Messaging Pillar Integration
 
-Align headlines with Thermo Fisher's five messaging pillars where relevant:
+Align headlines with Visual Planning's five messaging pillars where relevant:
 
-1. **Accelerate time to market**
-   - "Rapid Development Solutions"
-   - "Fast-Track Workflow"
-   - "Accelerated Process Development"
+1. **Replace inefficient planning tools**
+   - "Replace spreadsheets with visual scheduling"
+   - "Move beyond whiteboards and manual tracking"
+   - "A modern alternative to Excel-based scheduling"
 
-2. **Maximize resource efficiency**
-   - "Optimized Workflows"
-   - "Efficient Manufacturing"
-   - "Resource Optimization"
+2. **Simplify complex scheduling**
+   - "Drag-and-drop scheduling for any team"
+   - "Smart resource assignment in minutes"
+   - "Visual boards for complex schedules"
 
-3. **Enable high product yield and efficacy**
-   - "High-Yield Solutions"
-   - "Enhanced Productivity"
-   - "Yield Optimization"
+3. **Improve team collaboration and visibility**
+   - "Real-time scheduling visibility for your team"
+   - "Shared schedules across departments"
+   - "Keep everyone aligned with live updates"
 
-4. **Deliver on sustainability**
-   - "Sustainable Manufacturing"
-   - "Environmentally Responsible Solutions"
+4. **Reduce errors and wasted time**
+   - "Rules-based scheduling to prevent conflicts"
+   - "Automated alerts for scheduling issues"
+   - "Less time on admin, more time on work"
 
-5. **Reduce risk in supply and regulatory**
-   - "Quality and Regulatory Support"
-   - "Reliable Supply Chain"
-   - "Regulatory Documentation"
+5. **Adapt to any business need**
+   - "Configurable for any industry or workflow"
+   - "Build custom scheduling apps — no code needed"
+   - "From small teams to large enterprises"
 
 ---
 
@@ -254,45 +264,45 @@ Align headlines with Thermo Fisher's five messaging pillars where relevant:
 All headlines must be ≤60 characters.
 
 **Strategies for staying under 60:**
-- Use abbreviations when standard (mAb, CHO, HEK, cGMP)
+- Use abbreviations when standard (e.g., "ops" for operations in informal contexts)
 - Remove filler words ("and", "the", "for" when possible)
 - Use concise phrasing
 - Avoid redundancy
 
 **Examples:**
 
-Before (70 chars): "Comprehensive Cell Culture Media Solutions for CHO-Based Workflows"
-After (59 chars): "CHO Cell Culture Media for Bioprocessing Workflows" ✓
+Before (68 chars): "Comprehensive Resource Scheduling Software for Operations Teams"
+After (55 chars): "Resource Scheduling Software for Operations Teams" ✓
 
-Before (65 chars): "Advanced Technical Support and Comprehensive Documentation"
-After (47 chars): "Technical Support and Documentation" ✓
+Before (62 chars): "Real-Time Collaboration and Visibility for Distributed Teams"
+After (48 chars): "Real-time visibility for distributed teams" ✓
 
 ---
 
 ## Tone and Voice in Headlines
 
 **Do:**
-- Be confident and capable
-- Be straightforward and clear
-- Focus on outcomes and performance
-- Use industry-standard terminology
+- Be practical and outcome-focused
+- Use language your audience actually uses (scheduling, planning, assigning, tracking)
+- Focus on the problem being solved, not the feature in isolation
+- Use specific industry or role language when targeting a narrow audience
 
 **Don't:**
-- Use buzzwords or marketing jargon
-- Be overly promotional
-- Use emotional or vague language
+- Use buzzwords or overly techy language
+- Be overly promotional or boastful
+- Use absolute claims (always, eliminates, zero errors)
 - Include prohibited terms (see brand guidelines)
 
 **Examples:**
 
-✓ Good: "Discover scalable global manufacturing capabilities"
-✗ Avoid: "Unmatched, Revolutionary Manufacturing"
+✓ Good: "Replace spreadsheets with visual scheduling"
+✗ Avoid: "The Revolutionary Scheduling Solution That Eliminates All Complexity"
 
-✓ Good: "Media Solutions for [Application]"
-✗ Avoid: "The Perfect Media for All Your Needs"
+✓ Good: "Smart resource assignment based on your rules"
+✗ Avoid: "Perfect AI-Powered Resource Matching"
 
-✓ Good: "CHO Cell Culture Media to [Outcome]"
-✗ Avoid: "Award-Winning, Best-in-Class CHO Media"
+✓ Good: "Real-time collaboration for field and office teams"
+✗ Avoid: "Seamlessly Connect Every Team Member Instantly"
 
 ---
 
@@ -303,8 +313,8 @@ Before finalizing headlines, ask:
 1. **SEO:** Does the H1 include the Primary Keyword?
 2. **Hierarchy:** Is there exactly 1 H1, with H2s and H3s properly nested?
 3. **Length:** Are all headlines ≤60 characters?
-4. **Flow:** Do headlines follow a logical progression?
-5. **Audience:** Will the target ICP understand and find value?
+4. **Flow:** Do headlines follow a logical progression (problem → solution → CTA)?
+5. **Audience:** Will the target ICP (Operations Manager, Project Manager, etc.) understand and relate?
 6. **Brand:** Are all prohibited terms removed?
 7. **Keywords:** Are Secondary Keywords integrated naturally?
 8. **Gaps:** Have you addressed important topics from competitor analysis?
@@ -320,7 +330,7 @@ Before finalizing headlines, ask:
 5. **Inconsistent structure:** Keep parallel structure within sections
 6. **Over 60 chars:** Trim every headline to ≤60 characters
 7. **Prohibited terms:** Scan for all variations of banned words
-8. **Vague headlines:** Be specific about what each section covers
+8. **Vague headlines:** Be specific about what each section covers (not "Features" — say "Drag-and-drop resource assignment")
 
 ---
 
@@ -332,9 +342,9 @@ Use this when creating headlines:
 - [ ] No more than 5 consecutive H2s (≤60 chars each)
 - [ ] H3s only under H2s where needed (≤60 chars each)
 - [ ] Secondary Keywords integrated naturally
-- [ ] Logical flow from section to section
+- [ ] Logical flow from problem → solution → CTA
 - [ ] No prohibited terminology
 - [ ] Aligned with messaging pillars
-- [ ] Addresses target audience needs
+- [ ] Addresses target audience pain points and goals
 - [ ] Informed by competitor analysis
-- [ ] Clear, straightforward, outcome-driven
+- [ ] Clear, practical, outcome-driven

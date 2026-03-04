@@ -80,15 +80,21 @@ For standard error handling patterns, see [common-patterns.md](common-patterns.m
 ```
 === Existing Page Headlines ===
 
-H1: Cell Culture Media for Bioproduction
+H1: Resource Scheduling Software for Teams
 
-H2: Gibco Media Portfolio
+H2: Plan and Assign Resources Visually
 
-H3: CHO Cell Media
+H3: Drag-and-Drop Schedule Boards
 
-H3: HEK293 Cell Media
+H3: Smart Resource Assignment
 
-H2: Custom Media Solutions
+H2: Real-Time Collaboration
+
+H2: Industries We Serve
+
+H3: Manufacturing and Production
+
+H3: Field Service and Utilities
 ```
 
 ---

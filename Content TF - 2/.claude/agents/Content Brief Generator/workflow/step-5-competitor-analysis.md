@@ -97,19 +97,19 @@ For standard error handling patterns, see [common-patterns.md](common-patterns.m
 ## Example Execution
 
 **Given:**
-- Primary Keyword: "cell culture media"
-- Competitor Domains: "sigmaaldrich.com, cytivalifesciences.com, lonza.com"
+- Primary Keyword: "resource scheduling software"
+- Competitor Domains: "whenIwork.com, smartsheet.com, shiftplanning.com"
 
 **Step-by-step:**
 
-1. **Search site:sigmaaldrich.com "cell culture media"**
-   - Get 1st ranking URL: https://www.sigmaaldrich.com/cell-culture-media
+1. **Search site:whenIwork.com "resource scheduling software"**
+   - Get 1st ranking URL: https://wheniwork.com/resource-scheduling
 
-2. **Search site:cytivalifesciences.com "cell culture media"**
-   - Get 1st ranking URL: https://www.cytivalifesciences.com/media-solutions
+2. **Search site:smartsheet.com "resource scheduling software"**
+   - Get 1st ranking URL: https://www.smartsheet.com/resource-scheduling
 
-3. **Search site:lonza.com "cell culture media"**
-   - Get 1st ranking URL: https://www.lonza.com/cell-culture
+3. **Search site:shiftplanning.com "resource scheduling software"**
+   - Get 1st ranking URL: https://www.shiftplanning.com/features
 
 4. **Scrape each URL** (max 5 total)
    - Scrape URL 1, extract headlines and FAQs
@@ -118,6 +118,14 @@ For standard error handling patterns, see [common-patterns.md](common-patterns.m
 
 5. **Deduplicate and output unique items**
 
+**Visual Planning's Known Competitors** (use as defaults if the user doesn't provide competitor domains):
+- whenIwork.com — shift scheduling, small business focus
+- shiftplanning.com / humanity.com — workforce scheduling
+- smartsheet.com — project and resource management
+- microsoft.com (MS Project) — enterprise project scheduling
+- asana.com — project management
+- monday.com — work management platform
+
 ---
 
 ## Example Output
@@ -125,26 +133,28 @@ For standard error handling patterns, see [common-patterns.md](common-patterns.m
 ```
 === UNIQUE HEADLINES ===
 
-H1: Cell Culture Media and Reagents
-H2: Complete Media Solutions
-H3: Classical Media
-H3: Serum-Free Media
-H2: Custom Media Services
-H3: cGMP Media Manufacturing
-H1: Cell Culture Media for Bioprocessing
-H2: Media Portfolio Overview
-H2: Application-Specific Solutions
-H3: CHO Cell Media
-H3: Microbial Media
+H1: Resource Scheduling Software for Teams
+H2: Simplify Shift Scheduling
+H3: Drag-and-Drop Schedule Management
+H3: Employee Availability and Absences
+H2: Resource Planning for Projects
+H3: Assign the Right Person to the Right Job
+H3: Gantt and Calendar Views
+H1: Workforce Scheduling Made Simple
+H2: Plan Smarter with Visual Tools
+H2: Integrate with Your Existing Systems
+H3: HR and Payroll Integrations
+H3: ERP and CRM Connections
 
 === UNIQUE FAQs ===
 
-What is cell culture media?
-How do I choose the right media for my cell line?
-What are the benefits of serum-free media?
-Can I customize media formulations?
-What is the shelf life of cell culture media?
-How should cell culture media be stored?
+What is resource scheduling software?
+How is resource scheduling different from project management?
+Can I customize the scheduling views for my team?
+Does it work for field service teams?
+How does resource scheduling help reduce overbooking?
+What integrations does the software support?
+Is it suitable for small and large teams?
 ```
 
 ---

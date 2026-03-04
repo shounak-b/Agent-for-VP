@@ -48,12 +48,17 @@ For each selected page, provide:
 ## Example Output
 
 ```
-1. URL: https://www.thermofisher.com/us/en/home/life-science/bioproduction/single-use-bioprocessing/flexible-containment/fill-finish.html
-   Anchor Text: thermo fisher fill finish
+1. URL: https://www.visual-planning.com/en/resource-scheduling
+   Anchor Text: resource scheduling software
 
-2. URL: https://www.thermofisher.com/us/en/home/life-science/bioproduction/...
-   Anchor Text: [best-performing keyword for this URL]
+2. URL: https://www.visual-planning.com/en/project-management
+   Anchor Text: project scheduling tool
+
+3. URL: https://www.visual-planning.com/en/workforce-management
+   Anchor Text: workforce planning software
 ```
+
+**Note:** Visual Planning's website domain is `visual-planning.com`. The English site lives under `visual-planning.com/en/`. Use this domain when running the `page_finder.py` script.
 
 ---
 
