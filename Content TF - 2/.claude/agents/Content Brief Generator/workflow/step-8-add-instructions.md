@@ -98,7 +98,7 @@ For each headline in the structure, write a single-paragraph instruction that ex
 
 2. **Competitor content insights** (from Step 6):
    - Note how competitors frame similar topics
-   - Identify gaps or unique angles Thermo Fisher can emphasize
+   - Identify gaps or unique angles Visual Planning can emphasize
 
 3. **Page Content Brief Guide** (from Step 1):
    - Align instructions with target audience needs
@@ -241,17 +241,17 @@ Before saving, verify:
 
 ### First H2 (Challenge → Solution):
 ```
-mRNA manufacturing faces challenges in yield consistency, scalability, and cost control as programs advance from development through commercial production. Integrated bioprocessing solutions designed to connect plasmid DNA production, mRNA synthesis, purification, analytics, and fill-finish can help address these pressure points. Aligning workflow stages through coordinated platforms, automation strategies, and process liquid management supports efficient process development, scalable operations, and continuity across the path to cGMP manufacturing.
+Most teams outgrow their planning tools before they realize it — schedules split across spreadsheets, whiteboards, and email threads create gaps that lead to missed deadlines and resource conflicts. Visual Planning's configurable, visual-first scheduling platform helps operations and project teams replace disconnected tools with a single, collaborative system they can adapt to their workflow without programming. Moving to a centralized platform supports better visibility across teams, faster response to changes, and fewer errors caused by outdated or duplicate data.
 ```
 
 ### Regular H2 (Context):
 ```
-Upstream fermentation and downstream purification in mRNA workflows rely on analytics, automation, and process liquid strategies that link operations across stages. Plasmid DNA produced through E. coli fermentation feeds in vitro transcription, where reaction control and enzymatic conversion influence mRNA yield and quality attributes. Purification steps depend on buffer preparation, chromatography performance, and impurity clearance to deliver mRNA drug substance for encapsulation. When these stages are designed together, process developers can establish scalable control strategies, reduce variability, and support consistent performance from early development through cGMP production environments.
+Visual Planning's drag-and-drop scheduling interface is designed to give resource planners and operations managers a real-time view of who is working on what, when, and where. Users can configure views by role, project, department, or location — so each team member sees the information most relevant to their responsibilities. Smart assignment rules can filter resources by availability, skills, and location to help planners find the right person for the right task quickly. This section should explain how the scheduling interface works in practice and how it fits into a typical resource planning workflow.
 ```
 
 ### H3 (Specific Context):
 ```
-E. coli fermentation drives plasmid replication through controlled microbial growth under defined culture conditions. Process parameters—including induction timing, nutrient delivery, and temperature control—affect plasmid yield and quality. Glass and single-use fermentors provide scalable platforms for development and production work. Bioprocess controllers and automation software support reproducible operations, while defined media formulations reduce variability and facilitate consistent plasmid production across batches.
+Visual Planning's assignment rules allow planners to define criteria — such as skill set, certification, location, or shift availability — so the platform can surface eligible resources automatically. Rather than manually cross-referencing spreadsheets or calling team members to check availability, planners can filter and assign directly within the scheduling view. This subtopic should explain how rule-based assignment reduces manual effort, helps prevent double-booking, and supports more consistent scheduling decisions across teams.
 ```
 
 ---
@@ -294,7 +294,7 @@ E. coli fermentation drives plasmid replication through controlled microbial gro
 **Maintain consistency:**
 - Use similar phrasing patterns across related sections
 - Keep technical depth consistent within heading levels
-- Align with Thermo Fisher's messaging pillars where relevant
+- Align with Visual Planning's messaging pillars where relevant (see brand-guidelines.md)
 
 ---
 
