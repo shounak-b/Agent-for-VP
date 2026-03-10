@@ -18,52 +18,12 @@ Before generating headlines, you MUST verify you have all required information. 
 
 ## Visual Planning ICP Reference
 
-Use this to populate the ICP Information field when not explicitly provided by the user.
+When the user has not explicitly provided ICP Information, read the following resource files to populate the field:
 
-**Client:** Visual Planning (by Stilog)
-**Website:** visual-planning.com
-**Product:** Collaborative scheduling and resource management software
+- **[../Resources/VP Ideal Customer Profile.docx](../Resources/VP%20Ideal%20Customer%20Profile.docx)** — Target industries, personas, pain points, and goals
+- **[../Resources/Completed Client Questionnaire.docx](../Resources/Completed%20Client%20Questionnaire.docx)** — Client-provided context on brand, product, target market, and competitors
 
-### Target Industries (Strongest Fit)
-- Manufacturing & Production
-- Field Service & Industrial Maintenance
-- IT & Software Development
-- Consulting & Professional Services
-- Utilities & Oil & Gas
-- Healthcare & Pharma
-- Construction
-
-### Target Personas (Primary)
-| Role | Pain Points | Goals |
-|------|-------------|-------|
-| Operations Manager | Too much data in spreadsheets; hard to coordinate across teams; errors from disconnected info | Improve efficiency, reduce errors, get real-time visibility |
-| Project Manager | Scheduling conflicts, manual tracking, no visibility into resource availability | Plan and assign work faster, hit deadlines, keep team aligned |
-| Resource / Workforce Planner | Overbooking, underutilization, last-minute changes | Optimize resource allocation, reduce conflicts, simplify scheduling |
-| Production Manager | Coordinating machines, shifts, and workers across production lines | Manage production schedules visually, reduce downtime |
-| HR Coordinator / Shift Manager | Managing absences, rotations, and shift changes manually | Automate shift scheduling, reduce admin work |
-
-### Core Pain Points Visual Planning Solves
-1. Current systems (spreadsheets, whiteboards, paper) can't handle volume or collaboration
-2. Scheduling data is split across multiple places, causing errors and conflicts
-3. Too much time spent on manual admin tasks (entering, updating, re-entering data)
-4. Teams working in the field lack real-time access to updated schedules
-5. No way to enforce scheduling rules or prevent double-bookings automatically
-
-### Key Value Propositions
-- Highly configurable without programming — adapts to any workflow or industry
-- Visual-first scheduling with drag-and-drop — fast to learn and fast to use
-- Real-time collaboration for teams in and out of the office
-- Smart assignment rules: find the right resource based on availability, skills, location
-- All-in-one platform — manage projects, time tracking, CRM, and more under a single license
-- Scalable from SMEs to large enterprises
-
-### Common Competitors
-- whenIwork.com (shift scheduling)
-- shiftplanning.com / humanity.com (workforce scheduling)
-- smartsheet.com (project/resource management)
-- microsoft.com/en-us/microsoft-365/project (MS Project)
-- asana.com (project management)
-- monday.com (work management)
+Use these files to extract: target roles, industries, core pain points, goals, key value propositions, and competitor domains.
 
 ---
 

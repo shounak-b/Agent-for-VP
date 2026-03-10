@@ -9,10 +9,6 @@
   - Competitive Terms (Avoid)
   - Vague/Ambiguous Terms (Avoid)
 - [Visual Planning Messaging Framework](#visual-planning-messaging-framework)
-  - Brand Positioning
-  - Key Differentiators
-  - Five Messaging Pillars
-  - Target Audiences
 - [Tone of Voice](#tone-of-voice)
 - [Messaging Hierarchy](#messaging-hierarchy)
 
@@ -78,44 +74,13 @@ When reviewing content, search for the root term and all its variations to ensur
 
 ## Visual Planning Messaging Framework
 
-### Brand Positioning
+For brand positioning, key differentiators, messaging pillars, and target audiences, read the following resource files:
 
-**Tagline**: "Plan smarter. Work better."
+- **[Resources/Visual Planning Value Props.csv](Resources/Visual%20Planning%20Value%20Props.csv)** — Core value propositions and key differentiators
+- **[Resources/VP Ideal Customer Profile.docx](Resources/VP%20Ideal%20Customer%20Profile.docx)** — Target industries, segments, and audience details
+- **[Resources/Completed Client Questionnaire.docx](Resources/Completed%20Client%20Questionnaire.docx)** — Brand positioning, tagline, and core product approach
 
-**Core approach**: Visual Planning is a highly flexible, visual-first scheduling and resource management platform that helps teams across industries replace inefficient planning tools with a configurable, collaborative system that fits the way they work — without requiring programming.
-
-### Key Differentiators ("Why Visual Planning")
-
-Always integrate these when relevant:
-- Highly configurable without programming — adapts to any workflow or industry
-- Visual-first interface with drag-and-drop scheduling — fast to learn, fast to use
-- Supports real-time collaboration for teams working in and out of the office
-- Smart assignment rules to help allocate the right resource to the right task
-- All-in-one platform — multiple applications under a single license
-- Scalable from small teams to large enterprises
-
-### Five Messaging Pillars
-
-Build content around these customer needs:
-
-1. **Replace inefficient planning tools** (spreadsheets, whiteboards, outdated software)
-2. **Simplify complex scheduling** (visual boards, drag-and-drop, smart resource assignment)
-3. **Improve team collaboration and visibility** (real-time updates, shared access, notifications)
-4. **Reduce errors and wasted time** (rules-based workflows, automated alerts, centralized data)
-5. **Adapt to any business need** (fully customizable, multi-industry, scalable)
-
-### Target Audiences
-
-| Segment | Key Roles |
-|---------|-----------|
-| Manufacturing & Production | Production Managers, Operations Managers, Shift Supervisors |
-| IT & Software Development | Project Managers, Team Leads, Resource Planners |
-| Consulting & Professional Services | Project Managers, Operations Managers, Practice Leads |
-| Field Service & Utilities | Field Service Managers, Operations Coordinators, Dispatchers |
-| Healthcare & Pharma | HR Coordinators, Workforce Managers, Operations Leads |
-| Construction | Project Managers, Site Managers, Resource Planners |
-
-**Address their**: Goals, responsibilities, pain points (managing too much data, coordinating too many people, fixing errors that slow the team down), and values (efficiency, clarity, control).
+Use these files to align all content with VP's messaging pillars, key differentiators, and target audience needs.
 
 ## Tone of Voice
 
