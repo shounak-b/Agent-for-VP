@@ -1,303 +1,277 @@
 # Step 8: Add Writing Instructions Under Each Headline
 
-**Goal:** Provide context and guidance under each headline to direct the content writer on what should be discussed, explained, or highlighted in each section.
+Add bracketed writing instructions with word counts under each headline to guide the content writer.
+
+**Prerequisite:** User must approve the content brief from Step 7 before proceeding.
 
 ---
 
-## Why This Matters
+## Contents
 
-Writing instructions bridge the gap between the headline structure and the final content. They give writers clear direction on:
-- What information to include under each heading
-- How to frame the content (challenge/solution, explanation, technical details)
-- What products, capabilities, or workflows to reference
-- The depth and focus of each section
-
-This ensures consistency, accuracy, and alignment with the Page Content Brief Guide.
-
----
-
-## Prerequisites
-
-Ensure you have:
-- **Complete content brief with headline structure** (from Step 7)
-- **Page Content Brief Guide** (from Step 1)
-- **Primary and Secondary Keywords** (from Step 1)
-- **Competitor headlines and insights** (from Step 6)
-- **Existing page content** (from Step 5, if applicable)
+- [Workflow Checklist](#workflow-checklist)
+- [Instruction Format](#instruction-format)
+- [Word Count Guidelines](#word-count-guidelines)
+- [Instructions by Heading Type](#instructions-by-heading-type)
+- [Special Elements](#special-elements)
+- [Output Format](#output-format)
+- [Quality Checklist](#quality-checklist)
 
 ---
 
-## Instructions
+## Workflow Checklist
 
-### A. Read Saved Content Brief
+Copy and track progress:
 
-Read the content brief file saved in Step 8:
-
-**File path:**
 ```
-./Briefs/<folder-name>/content-brief.md
+Step 8 Progress:
+- [ ] A. Read content brief from Step 7
+- [ ] B. Add instruction under H1 (15-20 words guidance)
+- [ ] C. Add instructions under each H2 (vary by section type)
+- [ ] D. Add instructions under each H3 (20-50 words guidance)
+- [ ] E. Add special element notes (tables, testimonials, CTAs)
+- [ ] F. Apply brand guidelines to instruction language
+- [ ] G. Save as content-brief-with-instructions.md
+- [ ] H. Verify with quality checklist
 ```
 
-Extract the headline structure from the HEADLINE STRUCTURE section.
-
 ---
 
-### B. Generate Instructions for Each Headline
+## Instruction Format
 
-For each headline in the structure, write a single-paragraph instruction that explains what the content writer should cover in that section.
-
-**Format requirements:**
-- **Single paragraph** — No line breaks within the instruction (easy to copy/paste into Google Docs)
-- **Target length** — 600-800 characters for H2 sections, can be shorter for H3s
-- **Tone** — Technical, outcome-focused, references specific capabilities
-- **Content** — What will be discussed, explained, demonstrated, or highlighted
-
----
-
-### C. Apply Special Rules by Heading Type
-
-#### **First H1 (Main headline):**
-- **No instruction** — The H1 stands alone with no context beneath it
-- Skip directly to the first H2
-
-#### **First H2 only:**
-- **Challenge → Solution format**
-- First part: Introduce the challenge or problem that the target audience faces
-- Second part: Present the solution or approach that addresses the challenge
-- Frame from the audience's perspective
-- Reference specific workflow stages or business outcomes
-
-**Example pattern:**
-```
-[Problem statement describing challenges the audience faces]. [Solution statement explaining how integrated approaches/platforms/capabilities help address these challenges]. [Additional context on benefits or alignment with manufacturing goals].
-```
-
-#### **All other H2s:**
-- Explain what the section will cover
-- Reference specific products, platforms, or capabilities when relevant
-- Describe technical aspects or workflow connections
-- Connect to business outcomes or process goals
-- May reference how the section relates to upstream/downstream operations
-
-#### **All H3s:**
-- Provide context for the subtopic
-- Can be more specific than parent H2
-- Reference technical details, specific products, or process parameters
-- Explain how this subtopic relates to the broader section theme
-
----
-
-### D. Use Reference Materials
-
-**To ensure accuracy, reference:**
-
-1. **Existing page content** (from Step 5, if available):
-   - Review how topics were previously explained
-   - Identify product mentions, technical terms, and workflow descriptions
-   - Ensure important context isn't lost
-
-2. **Competitor content insights** (from Step 6):
-   - Note how competitors frame similar topics
-   - Identify gaps or unique angles Visual Planning can emphasize
-
-3. **Page Content Brief Guide** (from Step 1):
-   - Align instructions with target audience needs
-   - Reference specific products, services, or capabilities mentioned in the guide
-   - Ensure instructions support the content goal
-
-4. **Brand guidelines** (brand-guidelines.md):
-   - Use outcome-driven language
-   - Avoid prohibited terminology in instructions
-   - Frame capabilities confidently without guarantees
-
----
-
-### E. Format the Enhanced Content Brief
-
-Create a new version of the content brief with instructions added under each headline.
-
-**Structure:**
-
-```markdown
-# [Page Name from Step 1]
-
-[Contact us link if applicable]
-
-[Download link if applicable]
-
-## [First H2 headline]
-
-[Challenge → Solution instruction paragraph on single line]
-
-## [Second H2 headline]
-
-[Context instruction paragraph on single line]
-
-### [H3 under Second H2]
-
-[Context instruction paragraph on single line]
-
-### [Another H3 under Second H2]
-
-[Context instruction paragraph on single line]
-
-## [Third H2 headline]
-
-[Context instruction paragraph on single line]
-
-[Continue with all sections...]
-
-## Frequently asked questions
-
-[Instructions for FAQ section approach]
-
-### [FAQ question 1]
-
-[Instruction for how to answer this FAQ]
-
-### [FAQ question 2]
-
-[Instruction for how to answer this FAQ]
-
-[Continue for all FAQs...]
-
-## Related pages
-
-[List of relevant internal links from Step 4]
-```
-
-**Do NOT include:**
-- Character count comments (those are added during actual writing)
-- Placeholder text
-- Meta information like word count targets or SEO notes
-
----
-
-### F. Save the Enhanced Brief
-
-Save the enhanced content brief with instructions as a new file:
-
-**Filename:** `content-brief-with-instructions.md`
-**Location:** Same folder as the original brief
-
-**Full path:**
-```
-./Briefs/<folder-name>/content-brief-with-instructions.md
-```
+**Format:** `[(word count): instruction text]`
 
 **Example:**
-- Page Name: "CHO Cell Culture Media"
-- Folder: `cho-cell-culture-media`
-- Filename: `content-brief-with-instructions.md`
-- Full path: `./Briefs/cho-cell-culture-media/content-brief-with-instructions.md`
+```markdown
+**H2:** *Why teams switch to Visual Planning*
+
+[(20 words): Highlight the top reasons project managers, resource planners, and operations teams choose Visual Planning over other tools. Lead with flexibility, ease of use, and scheduling depth as the core narrative.]
+```
+
+**Rules:**
+- Square brackets containing word count and instruction
+- Word count in parentheses at start: `(15-20 words):`
+- Instruction describes what to write, not the actual content
+- Single paragraph, no line breaks within brackets
+
+---
+
+## Word Count Guidelines
+
+| Heading Type | Word Count Range | When to Use |
+|--------------|------------------|-------------|
+| H1 | (15-20 words) | Brief intro positioning the page topic |
+| H2 (intro) | (15-20 words) | Short section intros |
+| H2 (standard) | (30-40 words) | Most H2 sections |
+| H2 (detailed) | (40-60 words) | Complex topics needing more context |
+| H3 (short) | (20-30 words) | Feature explanations, simple subtopics |
+| H3 (standard) | (35-50 words) | Most H3 sections |
+| H3 (FAQ) | (50-75 words) | FAQ answers requiring detail |
+
+---
+
+## Instructions by Heading Type
+
+### H1 (Main Headline)
+
+Provide brief positioning for the page intro text.
+
+```markdown
+**H1:** *Visual Planning alternatives: Compare leading solutions*
+
+[(15-20 words): Introduce Visual Planning as a flexible, visual-first alternative to popular project management and scheduling tools. Ground the reader in what this page will help them do: evaluate their options and find the right tool for their team.]
+```
+
+### First H2 (Problem/Challenge Section)
+
+Frame the challenge the target audience faces.
+
+```markdown
+**H2:** *Growth has exposed gaps in your planning process*
+
+[(30-40 words): Acknowledge that as mid-market companies expand, disconnected tools and informal processes create operational blind spots that limit visibility, delay decisions, and increase coordination risk.]
+```
+
+### Standard H2
+
+Explain what the section covers and why it matters.
+
+```markdown
+**H2:** *Visual Planning vs. the competition*
+
+[(15-20 words): Introduce a feature comparison table that should be included below. Frame it as a simple way for teams to see how Visual Planning stacks up across key capabilities.]
+```
+
+### H3 (Subtopics)
+
+Provide specific guidance for the subtopic.
+
+```markdown
+**H3:** *Customizable visual views*
+
+[(20-30 words): Explain that Visual Planning offers Gantt, Kanban, and other view types that can be customized to any industry or workflow. Contrast this with rigid tools that lock teams into a single view format.]
+```
+
+### H3 (FAQ Questions)
+
+Guide how to answer each FAQ with more detail.
+
+```markdown
+**H3:** *How does Visual Planning differ from competitors?*
+
+[(50-75 words): Explain that unlike rigid project management tools (Smartsheet and Microsoft Project) or general task boards (monday.com and Excel), Visual Planning combines highly customizable scheduling views, such as Gantt and Kanban, with drag-and-drop simplicity, real-time collaboration, and integration with ERP and Microsoft systems. Emphasize that it is purpose-built for teams that need visual, flexible planning across industries and team sizes.]
+```
+
+---
+
+## Special Elements
+
+### CTAs
+
+Place after relevant headlines:
+
+```markdown
+**H3:** *Visual Planning vs. Smartsheet*
+
+[(20-25 words): Focus on Smartsheet's complexity and rigid grid-based structure compared to Visual Planning's customizable scheduling views, drag-and-drop ease, and purpose-built resource planning capabilities.]
+
+**CTA:** Compare against Smartsheet
+```
+
+### Tables
+
+Include table instructions in brackets:
+
+```markdown
+**H2:** *Visual Planning vs. the competition*
+
+[(15-20 words): Introduce a feature comparison table that should be included below.]
+
+[Include a feature comparison table. Columns: Visual Planning, Smartsheet, monday.com, Microsoft Project, Microsoft Excel. Rows should include features such as customizable views (Gantt/Kanban), drag-and-drop scheduling, real-time collaboration, resource and workforce planning, integrations, and scalability. Use checkmarks for supported features.]
+```
+
+### Testimonials
+
+```markdown
+**H2:** *What our users are saying*
+
+[Include a testimonial carousel with 3-5 customer testimonials. Each testimonial should include a name, company or industry, and a brief quote emphasizing scheduling ease, team visibility, or time savings.]
+
+**CTA:** See more testimonials
+```
 
 ---
 
 ## Output Format
 
-After saving, display:
+### File Structure
+
+Save as `content-brief-with-instructions.md` in the same folder as the original brief.
+
+```markdown
+# Visual Planning | [Page Topic]: Content Brief
+
+[Keep all metadata sections from original brief unchanged]
+
+---
+
+## Headings/Sections
+
+**H1:** *[headline]*
+
+[(15-20 words): instruction text]
+
+**CTA:** [cta text] **CTA:** [cta text]
+
+  **H2:** *[headline]*
+
+  [(30-40 words): instruction text]
+
+    **H3:** *[headline]*
+
+    [(20-30 words): instruction text]
+
+    **H3:** *[headline]*
+
+    [(35-50 words): instruction text]
+
+  **H2:** *[headline]*
+
+  [(15-20 words): instruction text]
+
+  [Include special element note if applicable]
+
+  **CTA:** [cta text]
+
+  **H2:** *Frequently Asked Questions*
+
+    **H3:** *[FAQ question]?*
+
+    [(50-75 words): instruction text]
+
+---
+
+[Keep Internal Links and other sections unchanged]
+```
+
+### Confirmation Message
+
+After saving:
 
 ```
-=== ENHANCED CONTENT BRIEF WITH INSTRUCTIONS CREATED ===
+=== CONTENT BRIEF WITH INSTRUCTIONS SAVED ===
 
-Folder: ./Briefs/<folder-name>/
-File: content-brief-with-instructions.md
-Full path: ./Briefs/<folder-name>/content-brief-with-instructions.md
-
+File: ./Briefs/<folder-name>/content-brief-with-instructions.md
 Status: ✓ Successfully saved
 
-Instructions added under:
-- [X] H2 headlines (including challenge-solution for first H2)
-- [X] H3 headlines
-- [X] FAQ sections
-
----
-
-The enhanced content brief is ready for the content writer.
+Instructions added:
+- [X] H1 with positioning guidance
+- [X] H2s with section context
+- [X] H3s with subtopic guidance
+- [X] FAQs with answer guidance
+- [X] Special elements (tables, testimonials)
+- [X] CTAs placed appropriately
 ```
 
 ---
 
-## Quality Checks
+## Quality Checklist
 
-Before saving, verify:
+Copy and verify:
 
-- [ ] First H1 has no instruction (stands alone)
-- [ ] First H2 uses challenge → solution format
-- [ ] All other H2s have context instructions
-- [ ] All H3s have context instructions
-- [ ] Each instruction is a single paragraph (no line breaks)
-- [ ] Instructions are 600-800 characters for main sections
-- [ ] Instructions reference specific products/capabilities where relevant
-- [ ] Instructions align with Page Content Brief Guide
-- [ ] Instructions incorporate insights from existing content (if available)
-- [ ] Instructions follow brand guidelines tone
-- [ ] Filename is `content-brief-with-instructions.md`
-- [ ] File saved in correct folder
+```
+Quality Checklist:
+- [ ] H1 has (15-20 words) instruction
+- [ ] Each H2 has instruction with appropriate word count
+- [ ] Each H3 has instruction with appropriate word count
+- [ ] FAQ H3s use (50-75 words) range
+- [ ] All instructions in [(word count): text] format
+- [ ] No line breaks within instruction brackets
+- [ ] Special elements noted (tables, testimonials)
+- [ ] CTAs retained from original brief
+- [ ] Brand guidelines followed in instruction language
+- [ ] File saved as content-brief-with-instructions.md
+```
 
 ---
 
-## Example Instruction Styles
+## Reference Materials
 
-### First H2 (Challenge → Solution):
-```
-Most teams outgrow their planning tools before they realize it — schedules split across spreadsheets, whiteboards, and email threads create gaps that lead to missed deadlines and resource conflicts. Visual Planning's configurable, visual-first scheduling platform helps operations and project teams replace disconnected tools with a single, collaborative system they can adapt to their workflow without programming. Moving to a centralized platform supports better visibility across teams, faster response to changes, and fewer errors caused by outdated or duplicate data.
-```
-
-### Regular H2 (Context):
-```
-Visual Planning's drag-and-drop scheduling interface is designed to give resource planners and operations managers a real-time view of who is working on what, when, and where. Users can configure views by role, project, department, or location — so each team member sees the information most relevant to their responsibilities. Smart assignment rules can filter resources by availability, skills, and location to help planners find the right person for the right task quickly. This section should explain how the scheduling interface works in practice and how it fits into a typical resource planning workflow.
-```
-
-### H3 (Specific Context):
-```
-Visual Planning's assignment rules allow planners to define criteria — such as skill set, certification, location, or shift availability — so the platform can surface eligible resources automatically. Rather than manually cross-referencing spreadsheets or calling team members to check availability, planners can filter and assign directly within the scheduling view. This subtopic should explain how rule-based assignment reduces manual effort, helps prevent double-booking, and supports more consistent scheduling decisions across teams.
-```
+When writing instructions, reference:
+- **[../brand-guidelines.md](../brand-guidelines.md)** — Tone and prohibited terms
+- **Step 4 output** — Existing page content (if applicable)
+- **Step 5 output** — Competitor insights
+- **Step 1 inputs** — ICP, target audience, page context
 
 ---
 
 ## Error Handling
 
-**Cannot read content brief from Step 8:**
-- Verify the file path is correct
-- Check that Step 8 completed successfully
-- If file not found, cannot proceed with Step 9
-
-**Insufficient context to write instructions:**
-- Use the headline structure as-is
-- Write general instructions based on headline topics
-- Note limitations in output message
-
-**File write fails:**
-- Display error message
-- Show the enhanced content so user can manually save
-
----
-
-## Writing Tips
-
-**For technical sections:**
-- Reference specific products, platforms, or technologies
-- Describe process parameters or technical considerations
-- Explain how the section connects to broader workflows
-
-**For business outcome sections:**
-- Focus on efficiency, scalability, risk reduction, time to market
-- Connect technical capabilities to business value
-- Reference regulatory alignment or manufacturing requirements
-
-**For application sections:**
-- Describe what the section will demonstrate or explain
-- Reference target workflows or use cases
-- Connect to audience pain points or goals
-
-**Maintain consistency:**
-- Use similar phrasing patterns across related sections
-- Keep technical depth consistent within heading levels
-- Align with Visual Planning's messaging pillars where relevant (see brand-guidelines.md)
+- **Cannot read brief from Step 7** → Verify file path, check Step 7 completed
+- **Insufficient context** → Write general instructions based on headline topics, note limitations
+- **File write fails** → Display content for manual save
 
 ---
 
 ## Next Step
 
-The enhanced content brief with writing instructions is now ready for handoff to the content writer for execution.
+The enhanced content brief with writing instructions is ready for handoff to the content writer.
