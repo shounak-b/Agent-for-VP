@@ -28,7 +28,7 @@ Step 8 Progress:
 - [ ] B. Add instruction under H1 (15-20 words guidance)
 - [ ] C. Add instructions under each H2 (vary by section type)
 - [ ] D. Add instructions under each H3 (20-50 words guidance)
-- [ ] E. Add special element notes (tables, testimonials, CTAs)
+- [ ] E. Add special element notes (tables, testimonials)
 - [ ] F. Apply brand guidelines to instruction language
 - [ ] G. Save as content-brief-with-instructions.md
 - [ ] H. Verify with quality checklist
@@ -59,7 +59,9 @@ Step 8 Progress:
 
 | Heading Type | Word Count Range | When to Use |
 |--------------|------------------|-------------|
-| H1 | (15-20 words) | Brief intro positioning the page topic |
+| H1 intro text — Blog / Pillar page | (50-75 words) | Challenge → solution → what the article covers |
+| H1 intro text — Landing / Service page | (15-20 words) | "How" behind the H1 — key differentiators or value props; optionally pain point → solution |
+| H1 intro text — Category page | (15-20 words) | Key differentiators or value props for that category |
 | H2 (intro) | (15-20 words) | Short section intros |
 | H2 (standard) | (30-40 words) | Most H2 sections |
 | H2 (detailed) | (40-60 words) | Complex topics needing more context |
@@ -71,14 +73,16 @@ Step 8 Progress:
 
 ## Instructions by Heading Type
 
-### H1 (Main Headline)
+### H1 (Main Headline) + Intro Text
 
-Provide brief positioning for the page intro text.
+The H1 headline stands alone — no instruction on the headline itself. Add a writing instruction for the **intro text** that follows the H1 (drafted in Step 6). Use the word count for the relevant page type (see Word Count Guidelines above).
 
 ```markdown
 **H1:** *Visual Planning alternatives: Compare leading solutions*
 
-[(15-20 words): Introduce Visual Planning as a flexible, visual-first alternative to popular project management and scheduling tools. Ground the reader in what this page will help them do: evaluate their options and find the right tool for their team.]
+*[intro text drafted in Step 6]*
+
+[(15-20 words): Introduce Visual Planning as a flexible, visual-first alternative to popular project management and scheduling tools. Concisely answer the "how" — focus on what makes VP distinctly suited for teams evaluating their options.]
 ```
 
 ### First H2 (Problem/Challenge Section)
@@ -125,18 +129,6 @@ Guide how to answer each FAQ with more detail.
 
 ## Special Elements
 
-### CTAs
-
-Place after relevant headlines:
-
-```markdown
-**H3:** *Visual Planning vs. Smartsheet*
-
-[(20-25 words): Focus on Smartsheet's complexity and rigid grid-based structure compared to Visual Planning's customizable scheduling views, drag-and-drop ease, and purpose-built resource planning capabilities.]
-
-**CTA:** Compare against Smartsheet
-```
-
 ### Tables
 
 Include table instructions in brackets:
@@ -155,8 +147,6 @@ Include table instructions in brackets:
 **H2:** *What our users are saying*
 
 [Include a testimonial carousel with 3-5 customer testimonials. Each testimonial should include a name, company or industry, and a brief quote emphasizing scheduling ease, team visibility, or time savings.]
-
-**CTA:** See more testimonials
 ```
 
 ---
@@ -178,9 +168,9 @@ Save as `content-brief-with-instructions.md` in the same folder as the original 
 
 **H1:** *[headline]*
 
-[(15-20 words): instruction text]
+*[intro text drafted in Step 6]*
 
-**CTA:** [cta text] **CTA:** [cta text]
+[(word count per page type): instruction text for intro]
 
   **H2:** *[headline]*
 
@@ -199,8 +189,6 @@ Save as `content-brief-with-instructions.md` in the same folder as the original 
   [(15-20 words): instruction text]
 
   [Include special element note if applicable]
-
-  **CTA:** [cta text]
 
   **H2:** *Frequently Asked Questions*
 
@@ -224,12 +212,11 @@ File: ./Briefs/<folder-name>/content-brief-with-instructions.md
 Status: ✓ Successfully saved
 
 Instructions added:
-- [X] H1 with positioning guidance
+- [X] H1 intro text with writing instruction
 - [X] H2s with section context
 - [X] H3s with subtopic guidance
 - [X] FAQs with answer guidance
 - [X] Special elements (tables, testimonials)
-- [X] CTAs placed appropriately
 ```
 
 ---
@@ -240,14 +227,13 @@ Copy and verify:
 
 ```
 Quality Checklist:
-- [ ] H1 has (15-20 words) instruction
+- [ ] H1 intro text has instruction matching page-type word count
 - [ ] Each H2 has instruction with appropriate word count
 - [ ] Each H3 has instruction with appropriate word count
 - [ ] FAQ H3s use (50-75 words) range
 - [ ] All instructions in [(word count): text] format
 - [ ] No line breaks within instruction brackets
 - [ ] Special elements noted (tables, testimonials)
-- [ ] CTAs retained from original brief
 - [ ] Brand guidelines followed in instruction language
 - [ ] File saved as content-brief-with-instructions.md
 ```

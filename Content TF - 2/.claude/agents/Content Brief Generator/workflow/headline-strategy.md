@@ -82,12 +82,12 @@ Detailed guidance for creating effective, SEO-optimized headlines for Visual Pla
 
    
 
-5. **Getting Started / CTA Sections**  
-     
-   - "Try Visual Planning free"  
-   - “Get started now”  
-   - "Get started with a live demo"  
-   - "See how it works for your team"
+5. **Getting Started Sections**
+
+   - “Try Visual Planning free”
+   - “Get started now”
+   - “Get started with a live demo”
+   - “See how it works for your team”
 
 **Examples:**
 
@@ -349,7 +349,7 @@ Before finalizing headlines, ask:
 1. **SEO:** Does the H1 include the Primary Keyword?  
 2. **Hierarchy:** Is there exactly 1 H1, with H2s and H3s properly nested?  
 3. **Length:** Are all headlines ≤60 characters?  
-4. **Flow:** Do headlines follow a logical progression (problem → solution → CTA)?  
+4. **Flow:** Do headlines follow a logical progression (problem → solution)?
 5. **Audience:** Will the target ICP (Operations Manager, Project Manager, etc.) understand and relate?  
 6. **Brand:** Are all prohibited terms removed?  
 7. **Keywords:** Are Secondary Keywords integrated naturally?  
@@ -378,7 +378,7 @@ Use this when creating headlines:
 - [ ] No more than 5 consecutive H2s (≤60 chars each)  
 - [ ] H3s only under H2s where needed (≤60 chars each)  
 - [ ] Secondary Keywords integrated naturally  
-- [ ] Logical flow from problem → solution → CTA  
+- [ ] Logical flow from problem → solution
 - [ ] No prohibited terminology  
 - [ ] Aligned with messaging pillars  
 - [ ] Addresses target audience pain points and goals  

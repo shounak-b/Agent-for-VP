@@ -242,8 +242,10 @@ ls -lh "./Briefs/<folder-name>/content-brief-with-instructions.md"
 
 **Special formatting rules:**
 
-**First H1:**
-- No instruction (headline stands alone)
+**H1 + Intro Text:**
+- The H1 headline itself has no instruction
+- Add a writing instruction for the intro text that follows the H1
+- Word count varies by page type: (50-75 words) for blog/pillar pages; (15-20 words) for landing, service, and category pages
 
 **First H2 only:**
 - Challenge → Solution format

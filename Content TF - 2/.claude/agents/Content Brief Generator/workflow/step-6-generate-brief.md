@@ -21,7 +21,8 @@ Copy and track progress:
 
 ```
 Step 6 Progress:
-- [ ] A. Generate headline structure (H1/H2/H3 with CTAs)
+- [ ] A. Generate headline structure (H1/H2/H3)
+- [ ] A1. Write H1 intro text (page-type specific)
 - [ ] B. Integrate internal links from Step 3
 - [ ] C. Apply brand guidelines (scan for prohibited terms)
 - [ ] D. Set target word count from Step 2
@@ -30,9 +31,8 @@ Step 6 Progress:
 - [ ] G. Generate meta description (150-160 chars)
 - [ ] H. Define URL structure
 - [ ] I. Specify tone of voice
-- [ ] J. Place CTAs strategically
-- [ ] K. Format output per output-structure.md
-- [ ] L. Run quality checklist
+- [ ] J. Format output per output-structure.md
+- [ ] K. Run quality checklist
 ```
 
 ---
@@ -59,6 +59,34 @@ Create SEO-optimized headlines:
 - **All headlines** — ≤60 characters
 
 See [headline-strategy.md](headline-strategy.md) for patterns and examples.
+
+---
+
+### A1. Write H1 Intro Text
+
+Write one introductory paragraph placed immediately after the H1. Vary content and length based on page type:
+
+**Blog / Pillar page — 50–75 words**
+- Open with the core challenge the reader is facing
+- Briefly introduce the solution approach
+- State what the article will cover or help the reader accomplish
+- Tone: educational, empathetic
+
+**Landing page / Service page — 15–20 words (1–2 sentences)**
+- Concisely answer the "how" behind the H1
+- Lead with key differentiators or value props
+- Optionally frame as: pain point → solution
+- Tone: practical, outcome-focused
+
+**Category page — 15–20 words (1–2 sentences)**
+- Highlight key differentiators or value props for that specific category
+- Tone: informative, direct
+
+**Rules for all page types:**
+- Apply brand guidelines — no prohibited terms
+- Do not repeat the H1 verbatim
+- Write as a complete, standalone sentence or short paragraph (no bullet points)
+- Frame from the reader's perspective
 
 ---
 
@@ -144,16 +172,6 @@ Options: "Informative and professional", "Educational and empathetic", "Practica
 
 ---
 
-### J. Place CTAs Strategically
-
-- After H1 (primary CTAs)
-- After key H2/H3 sections
-- Final closing H2
-
-Common CTAs: Get started for free, Request a demo, Start free trial, See more testimonials
-
----
-
 ## Output Format
 
 Follow [output-structure.md](output-structure.md) exactly.
@@ -167,7 +185,7 @@ Sections in order:
 6. URL Structure
 7. Target Word Count
 8. Target Keywords
-9. Headings/Sections (with CTAs, NO writing instructions)
+9. Headings/Sections (NO writing instructions)
 10. Tone of Voice
 11. Internal Links
 12. Premium Assets
@@ -183,10 +201,11 @@ Use checklist from [output-structure.md](output-structure.md#quality-checklist).
 Quick verification:
 - [ ] All sections from output-structure.md included
 - [ ] 1 H1 with Primary Keyword
+- [ ] Intro text present after H1, matches page-type length and focus
 - [ ] All headlines ≤60 chars
 - [ ] No prohibited terminology
-- [ ] CTAs placed strategically
 - [ ] No writing instructions under headlines
+
 
 ---
 

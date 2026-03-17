@@ -73,15 +73,13 @@ https://www.visual-planning.com/en/[path]/
 
 **H1:** *[headline]*
 
-**CTA:** [cta text]
+*[Intro text — see Intro Text Guidelines by page type]*
 
   **H2:** *[headline]*
 
     **H3:** *[headline]*
 
   **H2:** *[headline]*
-
-  **CTA:** [cta text]
 
 ---
 
@@ -100,7 +98,7 @@ https://www.visual-planning.com/en/[path]/
 
 ---
 
-## Premium Assets to Consider for CTAs
+## Premium Assets to Consider
 
 - *[asset or N/A]*
 ```
@@ -146,13 +144,20 @@ See [Headings Format](#headings-format) below.
 **Formatting:**
 - Prefix: `**H1:**`, `**H2:**`, `**H3:**` (bold)
 - Headline text: *italicized*
-- CTAs: `**CTA:** [text]` on own line
+- Intro text: plain italicized paragraph immediately after H1
 - Indent: H2 under H1, H3 under H2
 
-**CTA Placement:**
-- After H1 (primary CTAs)
-- After key H2/H3 sections
-- Final closing H2
+**Intro Text (after H1):**
+
+Write one introductory text block immediately after the H1. Content and length vary by page type:
+
+| Page Type | Length | Focus |
+|-----------|--------|-------|
+| Blog / Pillar page | 50–75 words | Cover the core challenge, the solution approach, and what the article will walk through |
+| Landing page / Service page | 15–20 words (1–2 sentences) | Concisely answer the "how" behind the H1 — lead with key differentiators or value props; optionally frame as pain point → solution |
+| Category page | 15–20 words (1–2 sentences) | Highlight key differentiators or value props for that category |
+
+Apply brand guidelines to intro text (no prohibited terms).
 
 **Special Sections:**
 - Testimonials: `[Include testimonial carousel]`
@@ -162,7 +167,7 @@ See [Headings Format](#headings-format) below.
 ```markdown
 **H1:** *Scheduling software for mid-market businesses*
 
-**CTA:** Get started for free
+*Visual Planning gives operations teams a configurable, drag-and-drop scheduling layer that replaces fragmented spreadsheets — without a lengthy implementation.*
 
   **H2:** *Growth has exposed gaps in your planning*
 
@@ -173,8 +178,6 @@ See [Headings Format](#headings-format) below.
   **H2:** *What our users are saying*
 
   [Include testimonial carousel]
-
-  **CTA:** See more testimonials
 ```
 
 **Rules:**
@@ -200,9 +203,9 @@ Output Checklist:
 - [ ] Target Word Count from Step 2
 - [ ] Primary + Secondary Keywords listed
 - [ ] Exactly 1 H1 with Primary Keyword
+- [ ] Intro text present after H1, matches page-type length and focus guidelines
 - [ ] All headlines ≤60 characters
 - [ ] H3s only under H2s
-- [ ] CTAs placed strategically
 - [ ] No writing instructions under headlines
 - [ ] Tone of Voice specified
 - [ ] Internal Links with anchor text

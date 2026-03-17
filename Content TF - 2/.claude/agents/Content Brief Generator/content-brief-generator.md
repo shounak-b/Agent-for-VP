@@ -135,7 +135,8 @@ After Step 7, you MUST:
 
 Add single-paragraph writing guidance under each headline to direct the content writer.
 
-**First H1:** No instruction
+**H1 headline:** No instruction on the headline itself
+**H1 intro text:** Writing instruction based on page type — (50–75 words) for blog/pillar pages; (15–20 words) for landing, service, and category pages
 **First H2:** Challenge → solution format (reference VP's scheduling pain points)
 **Other headings:** Context on what to cover, referencing VP features and ICP needs
 **Format:** Single paragraph per heading (no line breaks), 600–800 characters
