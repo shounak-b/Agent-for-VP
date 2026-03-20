@@ -4,6 +4,12 @@ Add bracketed writing instructions with word counts under each headline to guide
 
 **Prerequisite:** User must approve the content brief from Step 7 before proceeding.
 
+**🚨 CRITICAL OUTPUT REQUIREMENT:**
+- ALL instructions MUST be output as **PLAIN TEXT**, NOT in markdown code blocks
+- NEVER use ``` markers around instructions
+- Format: `[(X words): Discuss/highlight/explain/note...]`
+- Instructions appear as regular text paragraphs under each headline
+
 ---
 
 ## Contents
@@ -38,20 +44,21 @@ Step 8 Progress:
 
 ## Instruction Format
 
+**🚨 CRITICAL: Output ALL instructions as plain text paragraphs. NEVER wrap in markdown code blocks (no ``` markers).**
+
 **Format:** `[(word count): instruction text]`
 
 **Example:**
-```markdown
 **H2:** *Why teams switch to Visual Planning*
 
 [(20 words): Highlight the top reasons project managers, resource planners, and operations teams choose Visual Planning over other tools. Lead with flexibility, ease of use, and scheduling depth as the core narrative.]
-```
 
 **Rules:**
 - Square brackets containing word count and instruction
-- Word count in parentheses at start: `(15-20 words):`
+- Word count in parentheses at start: `(15-20 words):` or `(20 words):` or `(30-40 words):`
 - Instruction describes what to write, not the actual content
 - Single paragraph, no line breaks within brackets
+- Output as plain text directly under the headline
 
 ---
 
@@ -77,53 +84,53 @@ Step 8 Progress:
 
 The H1 headline stands alone — no instruction on the headline itself. Add a writing instruction for the **intro text** that follows the H1 (drafted in Step 6). Use the word count for the relevant page type (see Word Count Guidelines above).
 
-```markdown
+**Example:**
+
 **H1:** *Visual Planning alternatives: Compare leading solutions*
 
 *[intro text drafted in Step 6]*
 
 [(15-20 words): Introduce Visual Planning as a flexible, visual-first alternative to popular project management and scheduling tools. Concisely answer the "how" — focus on what makes VP distinctly suited for teams evaluating their options.]
-```
 
 ### First H2 (Problem/Challenge Section)
 
 Frame the challenge the target audience faces.
 
-```markdown
+**Example:**
+
 **H2:** *Growth has exposed gaps in your planning process*
 
 [(30-40 words): Acknowledge that as mid-market companies expand, disconnected tools and informal processes create operational blind spots that limit visibility, delay decisions, and increase coordination risk.]
-```
 
 ### Standard H2
 
 Explain what the section covers and why it matters.
 
-```markdown
+**Example:**
+
 **H2:** *Visual Planning vs. the competition*
 
 [(15-20 words): Introduce a feature comparison table that should be included below. Frame it as a simple way for teams to see how Visual Planning stacks up across key capabilities.]
-```
 
 ### H3 (Subtopics)
 
 Provide specific guidance for the subtopic.
 
-```markdown
+**Example:**
+
 **H3:** *Customizable visual views*
 
 [(20-30 words): Explain that Visual Planning offers Gantt, Kanban, and other view types that can be customized to any industry or workflow. Contrast this with rigid tools that lock teams into a single view format.]
-```
 
 ### H3 (FAQ Questions)
 
 Guide how to answer each FAQ with more detail.
 
-```markdown
+**Example:**
+
 **H3:** *How does Visual Planning differ from competitors?*
 
 [(50-75 words): Explain that unlike rigid project management tools (Smartsheet and Microsoft Project) or general task boards (monday.com and Excel), Visual Planning combines highly customizable scheduling views, such as Gantt and Kanban, with drag-and-drop simplicity, real-time collaboration, and integration with ERP and Microsoft systems. Emphasize that it is purpose-built for teams that need visual, flexible planning across industries and team sizes.]
-```
 
 ---
 
@@ -131,23 +138,23 @@ Guide how to answer each FAQ with more detail.
 
 ### Tables
 
-Include table instructions in brackets:
+Include table instructions in brackets.
 
-```markdown
+**Example:**
+
 **H2:** *Visual Planning vs. the competition*
 
 [(15-20 words): Introduce a feature comparison table that should be included below.]
 
 [Include a feature comparison table. Columns: Visual Planning, Smartsheet, monday.com, Microsoft Project, Microsoft Excel. Rows should include features such as customizable views (Gantt/Kanban), drag-and-drop scheduling, real-time collaboration, resource and workforce planning, integrations, and scalability. Use checkmarks for supported features.]
-```
 
 ### Testimonials
 
-```markdown
+**Example:**
+
 **H2:** *What our users are saying*
 
 [Include a testimonial carousel with 3-5 customer testimonials. Each testimonial should include a name, company or industry, and a brief quote emphasizing scheduling ease, team visibility, or time savings.]
-```
 
 ---
 
@@ -157,7 +164,8 @@ Include table instructions in brackets:
 
 Save as `content-brief-with-instructions.md` in the same folder as the original brief.
 
-```markdown
+**Example structure:**
+
 # Visual Planning | [Page Topic]: Content Brief
 
 [Keep all metadata sections from original brief unchanged]
@@ -199,7 +207,6 @@ Save as `content-brief-with-instructions.md` in the same folder as the original 
 ---
 
 [Keep Internal Links and other sections unchanged]
-```
 
 ### Confirmation Message
 

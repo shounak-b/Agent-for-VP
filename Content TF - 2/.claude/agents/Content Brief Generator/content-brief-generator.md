@@ -135,11 +135,16 @@ After Step 7, you MUST:
 
 Add single-paragraph writing guidance under each headline to direct the content writer.
 
+**CRITICAL FORMATTING RULES:**
+- **Format:** `[(X words): instruction text]` or `[(X-Y words): instruction text]`
+- **Output as PLAIN TEXT** — NEVER wrap instructions in markdown code blocks (no ``` markers)
+- Instructions go UNDER the headline as plain text paragraphs
+
 **H1 headline:** No instruction on the headline itself
 **H1 intro text:** Writing instruction based on page type — (50–75 words) for blog/pillar pages; (15–20 words) for landing, service, and category pages
 **First H2:** Challenge → solution format (reference VP's scheduling pain points)
 **Other headings:** Context on what to cover, referencing VP features and ICP needs
-**Format:** Single paragraph per heading (no line breaks), 600–800 characters
+**Format:** `[(X words): Discuss/highlight/explain...]` — Single paragraph per heading (no line breaks), 600–800 characters
 **Output:** Enhanced brief saved as `content-brief-with-instructions.md`
 
 See [workflow/step-8-add-instructions.md](workflow/step-8-add-instructions.md) for complete instructions.
